@@ -18,6 +18,7 @@ body {
     float: left;
     font-size: 150%;
     margin-left: 50px;
+    color: #823af1
 }
 
 #menu {
@@ -36,4 +37,25 @@ body {
 
 .active {
     border-bottom: 1px solid #823af1
+}
+
+/* Footer, Social Links */
+
+footer {
+    height: 50px
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color: #823af1
 }
