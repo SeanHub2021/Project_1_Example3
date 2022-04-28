@@ -59,6 +59,10 @@ footer {
 .social-networks i {
     font-size: 150%;
     margin: 1%;
-    padding: 5%;
+    padding: 1%;
     color: #823af1
+}
+
+.social-networks i:hover {
+    border-bottom: 1px solid #823af1
 }
