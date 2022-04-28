@@ -26,6 +26,11 @@ body {
     letter-spacing: 8px;
 }
 
+#menu li {
+    float: right;
+    list-style-type:disc
+}
+
 #menu a {
     text-decoration: wavy;
     color: inherit
@@ -35,9 +40,7 @@ body {
     border-bottom: 1px solid #823af1
 }
 
-.active {
-    border-bottom: 1px solid #823af1
-}
+
 
 /* Footer, Social Links */
 
