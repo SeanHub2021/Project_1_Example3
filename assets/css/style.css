@@ -34,7 +34,7 @@ body {
 
 #menu li {
     float: right;
-    list-style-type:disc
+    list-style-type:disc;
 }
 
 #menu a {
@@ -48,14 +48,14 @@ body {
 
 /* hero image */
 #hero-outer {
-    height: 300px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
     position: top;
 }
 
 #hero-image {
-    height: 600px;
+    height: 500px;
     width: 100%; 
     background: url('../images/tiny-hero-image3.jpg') no-repeat center center;    
 }
