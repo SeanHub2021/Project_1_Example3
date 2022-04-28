@@ -60,6 +60,30 @@ body {
     background: url('../images/tiny-hero-image3.jpg') no-repeat center center;    
 }
 
+/* Main content */
+#intro-to-services {
+    background: url(../images/mindfullness-meditation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    border: 15px solid white;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;   
+    height: 80%;
+    justify-content: center;
+    align-content: center;
+}
+
+#intro-to-services h2 {
+    color: inherit;
+}
+
 /* Footer, Social Links */
 
 footer {
