@@ -12,13 +12,19 @@ body {
     color: #823af1
 }
 
-/* Navigation, Menu */
+/* Navigation, Menu, Logo */
 
 #logo {
     float: left;
     font-size: 150%;
-    margin-left: 50px;
+    margin-left: 10px;
+    padding: 1px;
+    letter-spacing: 8px;
     color: #823af1
+}
+
+#logo:hover {
+    border-bottom: 1px solid #823af1;
 }
 
 #menu {
@@ -33,14 +39,26 @@ body {
 
 #menu a {
     text-decoration: wavy;
-    color: inherit
+    color: inherit;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #823af1
+    border-bottom: 1px solid #823af1;
 }
 
+/* hero image */
+#hero-outer {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    position: top;
+}
 
+#hero-image {
+    height: 600px;
+    width: 100%; 
+    background: url('../images/tiny-hero-image3.jpg') no-repeat center center;    
+}
 
 /* Footer, Social Links */
 
