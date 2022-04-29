@@ -73,6 +73,7 @@ body {
 
 .intro-container > * {
     flex-basis: 50%;
+    padding: 20px;
 }
 
 .intro-col-1 {
@@ -118,4 +119,14 @@ footer {
 
 .social-networks i:hover {
     border-bottom: 1px solid #823af1
+}
+
+/* media query responsiveness for devices, make 2 columns into 1 column */
+@media (max-width: 800px) {
+    .intro-container {
+        flex-direction: column;
+    }
+    .intro-container > * {
+        flex: 100%
+    }
 }
