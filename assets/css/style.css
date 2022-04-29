@@ -36,6 +36,8 @@ body {
     letter-spacing: 8px;
     display: flex;
     list-style: none;
+    padding: 30px 20px;
+    align-items: center;
 }
 
 #menu a {
