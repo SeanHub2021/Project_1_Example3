@@ -131,4 +131,8 @@ footer {
     .intro-container > * {
         flex: 100%
     }
+
+    #menu {
+        flex-direction: column;
+    }
 }
