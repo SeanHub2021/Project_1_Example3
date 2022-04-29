@@ -9,7 +9,7 @@
 body {
     font-family: Raleway, Helvetica, sans-serif;
     font-weight: 300;
-    color: #823af1
+    color: black
 }
 
 /* Navigation, Menu, Logo */
@@ -19,7 +19,7 @@ body {
     font-size: 150%;
     margin-left: 10px;
     padding: 1px;
-    letter-spacing: 8px;
+    letter-spacing: 4px;
     color: #823af1
 }
 
@@ -66,9 +66,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
-    width: 100%;
     overflow: hidden;
-    border: 15px solid white;
+    border: 5px solid white;
 }
 
 .flex-container {
@@ -78,6 +77,10 @@ body {
     height: 80%;
     justify-content: center;
     align-content: center;
+}
+
+.flex-container > * {
+    flex-basis: 50%;
 }
 
 #intro-to-services h2 {
