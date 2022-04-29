@@ -40,8 +40,8 @@ body {
     align-items: center;
 }
 
-#menu a {
-
+#menu li {
+    padding: 0px 10px;
 }
 
 #menu a:hover {
