@@ -135,4 +135,8 @@ footer {
     #menu {
         flex-direction: column;
     }
+
+    #logo {
+        margin-right: 0%;
+    }
 }
