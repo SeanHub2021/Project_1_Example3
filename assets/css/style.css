@@ -6,6 +6,10 @@
     border: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     font-family: Raleway, Helvetica, sans-serif;
     font-weight: 300;
@@ -15,7 +19,6 @@ body {
 /* Navigation, Menu, Logo */
 
 #logo {
-    float: left;
     font-size: 150%;
     margin-left: 10px;
     padding: 1px;
@@ -32,14 +35,8 @@ body {
     letter-spacing: 8px;
 }
 
-#menu li {
-    float: right;
-    list-style-type:disc;
-}
-
 #menu a {
-    text-decoration: wavy;
-    color: inherit;
+
 }
 
 #menu a:hover {
