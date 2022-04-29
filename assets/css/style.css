@@ -61,16 +61,8 @@ body {
 }
 
 /* Main content */
-#intro-to-services {
-    background: url(../images/mindfullness-meditation.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center;
-    overflow: hidden;
-    border: 5px solid white;
-}
 
-.flex-container {
+.intro-container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;   
@@ -79,8 +71,24 @@ body {
     align-content: center;
 }
 
-.flex-container > * {
+.intro-container > * {
     flex-basis: 50%;
+}
+
+.intro-col-1 {
+    background: url(../images/intro-to-services-1.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    overflow: hidden;
+}
+
+.intro-col-2 {
+    background: url(../images/intro-to-services-2.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    overflow: hidden;
 }
 
 #intro-to-services h2 {
