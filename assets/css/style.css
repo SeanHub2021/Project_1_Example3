@@ -23,7 +23,8 @@ body {
     margin-left: 10px;
     padding: 1px;
     letter-spacing: 4px;
-    color: #823af1
+    color: #823af1;
+    margin-right: auto;
 }
 
 #logo:hover {
@@ -33,6 +34,8 @@ body {
 #menu {
     font-size: 125%;
     letter-spacing: 8px;
+    display: flex;
+    list-style: none;
 }
 
 #menu a {
