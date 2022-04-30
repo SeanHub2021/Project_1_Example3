@@ -48,7 +48,7 @@ body {
     border-bottom: 1px solid #823af1;
 }
 
-/* hero image */
+/* Home - hero image */
 #hero-outer {
     height: 500px;
     width: 100%;
@@ -62,7 +62,7 @@ body {
     background: url('../images/tiny-hero-image3.jpg') no-repeat center center;    
 }
 
-/* Main content */
+/* Home - Main content */
 
 .intro-container {
     display: flex;
@@ -97,6 +97,41 @@ body {
 #intro-to-services h2 {
     color: inherit;
 }
+
+/* Mindfullness - Main content */
+
+.mindfullness-intro {
+    display: flex;
+    flex-direction: column;    
+    height: 120px;
+    padding: 20px;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #823af1;
+}
+
+.mindfullness-intro > * {
+    list-style: none;
+}
+
+.mindfullness-cols  > * {
+    display: flex;
+    flex-basis: 33%;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    color: #823af1;
+}
+
+.mindfullness-text
+
+.mindfullness-intro
+
+.mindfullness-1
+.mindfullness-2
+.mindfullness-3
 
 /* signup form */
 .signup-form {
