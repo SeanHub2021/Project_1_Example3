@@ -100,13 +100,13 @@ body {
 
 /* signup form */
 .signup-form {
-    margin: 150px 10% 0 0;
+    border-radius: 10px;
+    margin: 10px;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: #823af1;
     max-width: 400px;
     position: absolute;
-    padding: 30%;
-
+    padding: 30px;
 }
 
 .signup-form > label {
@@ -122,6 +122,25 @@ body {
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 4px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button {
+    margin: 20px;
+    border-radius: 10px;
+    padding: 15px 32px  15px 32px;
+    text-align: center;
+    font-size: 100%;
+    color: #823af1;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: rgba(255, 255, 255, 0.815);
+    color: #f16c6b;
 }
 
 /* Footer, Social Links */
