@@ -270,4 +270,13 @@ footer {
     #logo {
         margin-right: 0%;
     }
+
+    .mindfullness-wrapper {
+        flex-direction: column;
+    }
+
+    .mindfullness-info {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 }
