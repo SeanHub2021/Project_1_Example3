@@ -114,6 +114,7 @@ body {
 
 .mindfullness-intro > * {
     list-style: none;
+
 }
 
 .mindfullness-wrapper {
@@ -121,6 +122,10 @@ body {
     max-width: 1680px;
     padding: 120px 50px;
     background: #f6f1f7;
+}
+
+.mindfullness-wrapper > * {
+    flex-basis: 50%;
 }
 
 .mindfullness-info {
