@@ -109,7 +109,11 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #823af1;
+    color: #823af1; 
+}
+
+.mindfullness-intro ul {
+    font-size: 25px;
 }
 
 .mindfullness-intro > * {
@@ -174,8 +178,7 @@ body {
     list-style: none;
 }
 
-.meditation
--cols  > * {
+.meditation-cols  > * {
     display: flex;
     flex-basis: 33%;
     flex-direction: column;
