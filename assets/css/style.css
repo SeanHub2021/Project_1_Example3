@@ -141,7 +141,8 @@ body {
     list-style: none;
 }
 
-.meditation-cols  > * {
+.meditation
+-cols  > * {
     display: flex;
     flex-basis: 33%;
     flex-direction: column;
@@ -153,16 +154,16 @@ body {
 /* signup form */
 .signup-form {
     border-radius: 10px;
-    margin: 10px;
-    color: rgb(0, 0, 0);
+    margin: 10px auto;
+    padding: 10px;
+    color: white;
     background-color: #823af1;
     max-width: 400px;
-    position: absolute;
     padding: 30px;
 }
 
 .signup-form > label {
-    color: #62616191;
+    color: white;
     margin: 0 0 20px 0;
 }
 
@@ -180,17 +181,17 @@ body {
     border-color: #f16c6b;
 }
 
-.join-button {
-    margin: 20px;
+.submit-button {
+    margin: 20px 0px;
     border-radius: 10px;
-    padding: 15px 32px  15px 32px;
+    padding: 15px 32px;
     text-align: center;
     font-size: 100%;
     color: #823af1;
     display: block;
 }
 
-.join-button:hover {
+.submit-button:hover {
     background-color: rgba(255, 255, 255, 0.815);
     color: #f16c6b;
 }
