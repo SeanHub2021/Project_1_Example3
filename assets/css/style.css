@@ -151,32 +151,6 @@ body {
     margin-top: 20px;
     font-size: 30px;
 }
-
-/* Meditation - Main content */
-.meditation-intro {
-    display: flex;
-    flex-direction: column;    
-    height: 120px;
-    padding: 20px;
-    flex-basis: 100%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #823af1;
-}
-
-.meditation-intro > * {
-    list-style: none;
-}
-
-.meditation-cols  > * {
-    display: flex;
-    flex-basis: 33%;
-    flex-direction: column;
-    padding: 20px;
-    text-align: center;
-    color: #823af1;
-}
 /* signup form */
 .signup-form {
     border-radius: 10px;
@@ -225,6 +199,7 @@ body {
 /* formdump & 404 pages */
 
 .formdump-thanks {
+    display: block;
     text-align: center;
     color: #823af1;
 }
