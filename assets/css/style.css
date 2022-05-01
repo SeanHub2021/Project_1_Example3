@@ -222,6 +222,13 @@ body {
     color: #f16c6b;
 }
 
+/* formdump & 404 pages */
+
+.formdump-thanks {
+    text-align: center;
+    color: #823af1;
+}
+
 /* Footer, Social Links */
 
 footer {
