@@ -116,14 +116,38 @@ body {
     list-style: none;
 }
 
-.mindfullness-cols  > * {
+.mindfullness-wrapper {
+    display: flex;
+    max-width: 1680px;
+    padding: 80px 50px;
+    background: #f6f1f7;
+}
+
+.mindfullness-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+}
+
+.mindfullness-info h2 {
+   margin-bottom: 20px;
+}
+
+.cta-contact {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+/* .mindfullness-wrapper > * {
     display: flex;
     flex-basis: 33%;
     flex-direction: column;
     padding: 20px;
     text-align: center;
     color: #823af1;
-}
+} 
+*/
+
 /* Meditation - Main content */
 .meditation-intro {
     display: flex;
@@ -182,7 +206,7 @@ body {
 }
 
 .submit-button {
-    margin: 20px 0px;
+    margin: 20px ;
     border-radius: 10px;
     padding: 15px 32px;
     text-align: center;
