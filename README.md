@@ -5,7 +5,7 @@ Williams Wellness Website is a website that gives users to an introduction to Mi
 
  
 
-![Mockup](docs/readme_images/mockup1.png)
+![Mockup](./docs/readme_images/Mockup1.PNG)
 
 ## Features 
 
@@ -14,7 +14,7 @@ Williams Wellness Website is a website that gives users to an introduction to Mi
 * Contains links to the Home, Mindfullness, Meditation, & Contact pages and will be responsive on all devices.
 * This will allow users to easily navigate between the pages within the site on any size device. 
 
-![Nav Menu](docs/readme_images/nav1.png)
+![Nav Menu](./docs/readme_images/nav1.png)
 * Footer
     * This contains icons as links to social media websites that will open in new tabs. 
     * This will allow the user to follow 'Williams Wellness Website' on various social media where they can get more up to date information that may not be displayed on the website.
@@ -22,28 +22,27 @@ Williams Wellness Website is a website that gives users to an introduction to Mi
     * These currently link off to the homepage for each social media site, but would be changed to appropriate business-specific links in practise. 
 
 
-![Footer](docs/readme_images/footer1.png)
+![Footer](./docs/readme_images/footer1.png)
 
 * 404 Page
     * A 404 page will be implemented and will display if a user navigates to a broken link.
     * The 404 page needs to be properly added.
 
-![404](docs/readme_images/404_page.JPG)
+![404](./docs/readme_images/404-image1.JPG)
 
 ### Landing Page
 * Landing page image
     * This will help to immediately show the user what the website is about, and where the navigation elements are.
     * This will be an introductory page to the ideas of mindfulness & meditation
     
-![Landing Page Image](docs/readme_images/landing-page-image1.png)
-
+![Landing Page Image](./docs/readme_images/landing-page-image1.png)
 
 
 * Website information on 'Mindfulness' & 'Meditation'
     * Information about 'Mindfulness', which links to further content page for Mindfulness
     * Information about 'Meditation', which links to further content page for Mindfulness 
 
-![Landing Page Image](docs/readme_images/landing-page-image2.png)
+![Landing Page Image](./docs/readme_images/landing-page-image2.png)
 
 * Contact form
     * A contact form will be implemented to allow users to contact the wellness center. The form will consist of the following fields and attributes: 
@@ -55,38 +54,37 @@ Williams Wellness Website is a website that gives users to an introduction to Mi
     * On successful submission of the contact form, the user will be navigated to formdump.html displaying a success message.
     * The business will follow up directly with customers to build out a bespoke Mindfulness and/or Meditation class and/or tutoring package to suit their availability and budget. 
 
-![Contact Form](docs/readme_images/contact1.png)
-![Contact Form - Submitted!](docs/readme_images/contact2.png)
+![Contact Form](./docs/readme_images/contact1.png)
+![Contact Form - Submitted!](./docs/readme_images/contact2.png)
 
 ### Mindfullness Page
 * Mindfullness
     * The Mindfulness page gives users 3 introductory forms of Mindfulness (The Raisin Exercise, The Body Scan, & Mindful Seeing), with basic technique information, as well as embedded youtube video content for users to watch at their leisure. 
     * There is also a call-to-action at the bottom of the page to redirect to the contact submission form. 
 
-![Gallery](docs/readme_images/mindfulness1.png)
+![Mindfulness](./docs/readme_images/mindfulness1.png)
 ### Meditation Page
 * Meditation
     * The Meditation page gives users 3 introductory forms of Meditation with basic technique information, as well as embedded picture content for users to understand how to position themselves for their chosen technique. 
     * There is also a call-to-action at the bottom of the page to redirect to the contact submission form. 
     
 
-![Details Dropdown](docs/readme_images/meditation1.JPG)
+![Meditation](./docs/readme_images/meditation1.JPG)
 ### Existing Features
 
 * Responsive design; works on different sized devices
 * Contact form and success page
-* 3 mindfulness examples
-* 3 meditation examples
+* 3 mindfulness examples, with video content
+* 3 meditation examples, with video content
 
 ### Features Left to Implement
 
 * Contact form to submit to real database in practise
-* Change opacity on intro-to-services images to enhance readability
 
 ## Design
 
 ### Wireframes
-- Zdd in if time permitting
+- Add in to readme if time permitting
 
 ## Technologies
 
@@ -110,15 +108,16 @@ Williams Wellness Website is a website that gives users to an introduction to Mi
 
 ## Testing 
 
+
 ### Responsiveness
 
-All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Chrome, Edge, Firefox and Opera browsers.
+All pages were tested to ensure responsiveness on screen sizes from 800px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Chrome, Edge, Firefox and Opera browsers.
 
 Steps to test:
 
 1. Open browser and navigate to [Williams Wellness Website](https://seanhub2021.github.io/Project_1_Example3/mindfullness.html)
 2. Open the developer tools (right click and inspect)
-3. Set to responsive and decrease width to 320px
+3. Set to responsive and decrease width to 800px
 4. Set the zoom to 50%
 5. Click and drag the responsive window to maximum width
 
@@ -146,22 +145,17 @@ Testing was focused to ensure the following criteria were met:
 - All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
 - Color contrasts meet a minimum ratio as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
 - Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
-- All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
-- All not textual content had alternative text or titles so descriptions are read out to screen readers
+- Content is contained within landmarks (ie; "main") to ensure ease of use for assistive technology, allowing the user to navigate by page regions
 - HTML page lang attribute has been set
 - Aria properties have been implemented correctly
 - WCAG 2.1 Coding best practices being followed
 
-Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
+Manual tests (listening to page reader) was also performed to ensure the website was accessible as possible and any accessibility issues were identified. 
 
 
 ### Lighthouse Testing
 
-![nav-element1](.jpg)
-
-![nav-element2]()
-
-![Adventures](G)
+![nav-element1](./docs/readme_images/lighthouse1.PNG)
 
 ### Functional Testing
 
