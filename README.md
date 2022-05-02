@@ -14,7 +14,7 @@ Williams Wellness Website is a website that gives users to an introduction to Mi
 * Contains links to the Home, Mindfullness, Meditation, & Contact pages and will be responsive on all devices.
 * This will allow users to easily navigate between the pages within the site on any size device. 
 
-![Nav Menu](./docs/readme_images/nav1.png)
+![Nav Menu](./docs/readme_images/nav1.PNG)
 * Footer
     * This contains icons as links to social media websites that will open in new tabs. 
     * This will allow the user to follow 'Williams Wellness Website' on various social media where they can get more up to date information that may not be displayed on the website.
@@ -22,27 +22,27 @@ Williams Wellness Website is a website that gives users to an introduction to Mi
     * These currently link off to the homepage for each social media site, but would be changed to appropriate business-specific links in practise. 
 
 
-![Footer](./docs/readme_images/footer1.png)
+![Footer](./docs/readme_images/footer1.PNG)
 
 * 404 Page
     * A 404 page will be implemented and will display if a user navigates to a broken link.
     * The 404 page needs to be properly added.
 
-![404](./docs/readme_images/404-image1.JPG)
+![404](./docs/readme_images/404-image1.PNG)
 
 ### Landing Page
 * Landing page image
     * This will help to immediately show the user what the website is about, and where the navigation elements are.
     * This will be an introductory page to the ideas of mindfulness & meditation
     
-![Landing Page Image](./docs/readme_images/landing-page-image1.png)
+![Landing Page Image](./docs/readme_images/landing-page-image1.PNG)
 
 
 * Website information on 'Mindfulness' & 'Meditation'
     * Information about 'Mindfulness', which links to further content page for Mindfulness
     * Information about 'Meditation', which links to further content page for Mindfulness 
 
-![Landing Page Image](./docs/readme_images/landing-page-image2.png)
+![Landing Page Image](./docs/readme_images/landing-page-image2.PNG)
 
 * Contact form
     * A contact form will be implemented to allow users to contact the wellness center. The form will consist of the following fields and attributes: 
@@ -54,22 +54,22 @@ Williams Wellness Website is a website that gives users to an introduction to Mi
     * On successful submission of the contact form, the user will be navigated to formdump.html displaying a success message.
     * The business will follow up directly with customers to build out a bespoke Mindfulness and/or Meditation class and/or tutoring package to suit their availability and budget. 
 
-![Contact Form](./docs/readme_images/contact1.png)
-![Contact Form - Submitted!](./docs/readme_images/contact2.png)
+![Contact Form](./docs/readme_images/contact1.PNG)
+![Contact Form - Submitted!](./docs/readme_images/contact2.PNG)
 
 ### Mindfullness Page
 * Mindfullness
     * The Mindfulness page gives users 3 introductory forms of Mindfulness (The Raisin Exercise, The Body Scan, & Mindful Seeing), with basic technique information, as well as embedded youtube video content for users to watch at their leisure. 
     * There is also a call-to-action at the bottom of the page to redirect to the contact submission form. 
 
-![Mindfulness](./docs/readme_images/mindfulness1.png)
+![Mindfulness](./docs/readme_images/mindfulness1.PNG)
 ### Meditation Page
 * Meditation
     * The Meditation page gives users 3 introductory forms of Meditation with basic technique information, as well as embedded picture content for users to understand how to position themselves for their chosen technique. 
     * There is also a call-to-action at the bottom of the page to redirect to the contact submission form. 
     
 
-![Meditation](./docs/readme_images/meditation1.JPG)
+![Meditation](./docs/readme_images/meditation1.PNG)
 ### Existing Features
 
 * Responsive design; works on different sized devices
@@ -104,6 +104,10 @@ Williams Wellness Website is a website that gives users to an introduction to Mi
     * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
 * Youtube
     * video content hosted on youtube, embedded with youtubes iframe
+* W3C HTML Validator
+    * Used to test HTML to make sure it is compliant
+* W3C CSS Validator
+    * Used to test CSS to make sure it is compliant
 
 
 ## Testing 
@@ -239,31 +243,31 @@ Each item opened a new tab when clicked as expected and correct underlining was 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
-![Index HTML Validator Results]()
+![Index HTML Validator Results](./docs/readme_images/html-validation-index.PNG)
 
-![Mindfulness HTML Validator Results]()
+![Mindfulness HTML Validator Results](./docs/readme_images/html-validation-mindfullness.PNG)
 
-![Meditation Validator Results]()
+![Meditation Validator Results](./docs/readme_images/html-validation-meditation.PNG)
 
-![Contact HTML Validator Results]()
+![Contact HTML Validator Results](./docs/readme_images/html-validation-contact.PNG)
 
-![Formdump HTML Validator Results]()
+![Formdump HTML Validator Results](./docs/readme_images/html-validation-formdump.PNG)
 
-![404 HTML Validator Results]()
+![404 HTML Validator Results](./docs/readme_images/html-validation-404.PNG)
 
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator]()
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 
-![CSS Validator Results]()
+![CSS Validator Results](./docs/readme_images/css-validation.PNG)
 
 ### Unfixed Bugs
-Responsiveness of the website worked on all devices, screen sizes and orientation.
+Error with permissions-policy header: unrecognized feature: 'interest-cohort'. 
 
 ## Deployment
 
 ### Version Control
 
-The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘tacos-travels’.
+The site was created using the Visual Studio code editor and pushed to github to the remote repository seanhub2021.github.io/Project_1_Example3.
 
 The following git commands were used throughout development to push code to the remote repo:
 
@@ -282,7 +286,7 @@ The following git commands were used throughout development to push code to the 
   - Click 'Save'
   - A live link will be displayed in a green banner when published successfully. 
 
-The live link can be found here - https://gareth-mcgirr.github.io/tacos-travels/ 
+The live link can be found here - https://seanhub2021.github.io/Project_1_Example3/meditation.html
 
 ### Clone the Repository Code Locally
 
@@ -298,15 +302,19 @@ The project will now of been cloned on your local machine for use.
 
 ## Credits 
 
-* [Accordion without javascript](https://supfort.com/pure-css-accordion-without-javascript)
-    * Code was used from this site to create the accordian effect on the adventures page sections for the hidden sections for each days travels. Styles were changed to suit styling on my Website.
-* [Youtube Gallery Filter Tutorial](https://www.youtube.com/watch?v=U-CujW5OlW0)
-    * Gallery page was created with inspiration from this video. I adapted code to use flexbox rather than css grid to make the page responsive on every device. 
+* [Mindfulness - helpguide](https://www.helpguide.org/harvard/benefits-of-mindfulness.htm)
+    * Text guide for mindfulness was created from this website
+* [Mindfulness - techniques](https://positivepsychology.com/mindfulness-exercises-techniques-activities/)
+    * Further info on mindfulness techiques taken from here
+* [Meditation - mayo clinic](https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858)
+    * Text intro for meditation was taken from mayo clinic
+* [Meditation - webmd](https://www.webmd.com/balance/guide/transcendental-meditation-benefits-technique)
+    * Text description for transcendental meditation taken from here. 
 
 
 ### Content 
 
-All content with the exception of those listed in the Media section of this document was owned by Williams Wellness Website business owner William. Permission was granted from rights holders for the images.  .
+All content with the exception of those listed in the Media section of this document was owned by Williams Wellness Website business owner William. Permission was granted from rights holders for the images, or the images were from public use sites. 
 
 ### Media
 
