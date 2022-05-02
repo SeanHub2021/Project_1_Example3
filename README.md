@@ -80,6 +80,7 @@ Williams Wellness Website is a website that gives users to an introduction to Mi
 ### Features Left to Implement
 
 * Contact form to submit to real database in practise
+* Fix formatting for large screen devices (tv's etc)
 
 ## Design
 
@@ -104,10 +105,6 @@ Williams Wellness Website is a website that gives users to an introduction to Mi
     * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
 * Youtube
     * video content hosted on youtube, embedded with youtubes iframe
-* W3C HTML Validator
-    * Used to test HTML to make sure it is compliant
-* W3C CSS Validator
-    * Used to test CSS to make sure it is compliant
 
 
 ## Testing 
@@ -186,7 +183,7 @@ The form on the home page was tested to ensure it functioned as expected when co
 Steps to test:
 
 1. Navigate to [Contact](https://seanhub2021.github.io/Project_1_Example3/contact.html)
-2. Scroll down to the form and input any data 
+2. Scroll down to the form and input data appropriately
 3. Click Submit
 4. User should be redirected to contact.html confirmation page
 
@@ -262,6 +259,7 @@ Each item opened a new tab when clicked as expected and correct underlining was 
 
 ### Unfixed Bugs
 Error with permissions-policy header: unrecognized feature: 'interest-cohort'. 
+Will fix in future version of website.
 
 ## Deployment
 
