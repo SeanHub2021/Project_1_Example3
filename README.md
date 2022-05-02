@@ -314,8 +314,15 @@ The project will now of been cloned on your local machine for use.
 
 ### Content 
 
-All content with the exception of those listed in the Media section of this document was owned by Williams Wellness Website business owner William. Permission was granted from rights holders for the images, or the images were from public use sites. 
+All content with the exception of those listed in the Media section of this document was owned by Williams Wellness Website. 
+Permission was granted from rights holders for the images, or the images were from public use sites. 
 
 ### Media
 
-Video content was uploaded to Youtube by x/y/z channel names.
+Video content was uploaded to Youtube by;
+[Healthy Lifestyles](https://www.youtube.com/channel/UCr2imy-lkD1Erbdmn7EhlMQ).
+[Be You Fully](https://www.youtube.com/channel/UCLCTtXkRdLIw_mnovdW3jag)
+[The Will To Heal Project](https://www.youtube.com/channel/UCUG83M4b1GqX2a7zvOH2Qng)
+[Alabaster Co](https://www.youtube.com/channel/UCFjRGKw_Xo7iAksQaedIbpA)
+[Yongey Mingyur Rinpoche](https://www.youtube.com/channel/UCv-oUk8x6SGHMOLrCMDNrsw)
+[Raphael Reiter](https://www.youtube.com/channel/UCYSzP7vTOW9lhymofOgXlVA)
